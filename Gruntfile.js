@@ -12,7 +12,8 @@ module.exports = function(grunt){
 			'dest/css/*', '!dest/css/style.min.css',
 			'dest/*.html', '!dest/index.html',
 			'dest/*.php', '!dest/index.php','!dest/quickmail.php',
-			'dest/js/*','!dest/js/scripts.min.uglify.js','!dest/js/scripts.min.js'
+			'dest/js/*','!dest/js/scripts.min.uglify.js','!dest/js/scripts.min.js',
+			'tmp'
 			]     
 		},
 		copy: {
