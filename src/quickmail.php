@@ -20,5 +20,6 @@ mail("drewdowd@gmail.com", $subject, $body, $headers);
 ?>
 
 <div id="mail">
-<p>Thanks <span class="grey"><?php echo $first; ?>.</span> I'll hit you back shortly. </p>
+<h3>Thanks <span class="grey"><?php echo $first; ?>.</span></h3>
+<p style="height:500px"> I'll get back to you shortly. </p>
 </div> 

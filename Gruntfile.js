@@ -8,7 +8,7 @@ module.exports = function(grunt){
 		clean : {
 			init : ['dest/'],
 			tidy : [
-			'dest/img/*', '!dest/img/*.jpg','!dest/img/*.png',
+			'dest/img/*', '!dest/img/*.jpg','!dest/img/*.png','!dest/img/*.gif',
 			'dest/css/*', '!dest/css/style.min.css',
 			'dest/*.html', '!dest/index.html',
 			'dest/*.php', '!dest/index.php','!dest/quickmail.php',

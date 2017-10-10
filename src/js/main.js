@@ -28,6 +28,13 @@ $('nav > ul > li > a,.arrow-down a').click (function(e){
     1500);
 });
 
+$.fn.goTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top + 'px'
+        }, 'fast');
+        return this;
+}
+
 
 	$('.quick').submit(function () {
                    
@@ -102,9 +109,11 @@ $('nav > ul > li > a,.arrow-down a').click (function(e){
                        
 
 			function (a) {
-			//$('#quick-con').hide().fadeOut();	
-		   $('#loading').hide().fadeOut();
-		   $('<div></div>').hide().fadeIn('slow').insertAfter('#quick-con').append(a);
+		   $('#quick-con').hide().fadeOut();	
+		   $('#loading').css({'visibility':'hidden'});
+		   $('#contact').goTo();
+		   $('#contact h3').remove();
+		   $('<div></div>').hide().fadeIn('slow').insertBefore('#quick-con').append(a);
             
                     //$('#quickfirst,#quicklast,#quickemail,#quickmsg').val('');              
                                 

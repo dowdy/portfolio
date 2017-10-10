@@ -5,8 +5,8 @@ var Core;
         function Slider() {
             // Durations
             this.durations = {
-                auto: 5000,
-                slide: 4000
+                auto: 4800,
+                slide: 2400
             };
             // DOM
             this.dom = {

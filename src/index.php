@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Andrew James Dowd</title>
-  <meta name="description" content="Portfolio of web consultant Andrew James Dowd ">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="google-site-verification" content="QuuvSTfSsyffTtGVh_CVzkQIt5GSF-IeSoJbU5iDJO0" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Teko:400,700|Pacifico" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.min.css">
+<meta charset="utf-8">
+<title>Andrew James Dowd</title>
+<meta name="description" content="Portfolio of web consultant Andrew James Dowd ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="QuuvSTfSsyffTtGVh_CVzkQIt5GSF-IeSoJbU5iDJO0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700|Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="css/style.min.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107708425-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-107708425-1');
+</script>
 </head>
 <header>
   <div class="button_container" id="toggle" aria-haspopup="true" aria-expanded="false" aria-controls="overlay-menu" aria-label="Launch Site Navigation">
@@ -249,6 +256,9 @@
             <li role="menuitem"><a href="#contact" aria-label="Navigate to Contact section">Contact</a></li>
           </ul>
         </nav>
+      </div>
+      <div id="loading-container" aria-hidden="true">
+        <div id="loading"><img src="img/loading.gif" /><span>LOADING</span></div>
       </div>
       <script src="js/scripts.min.uglify.js"></script>
     </body>

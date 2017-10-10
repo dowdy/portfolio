@@ -41,6 +41,10 @@ z-index: 999;
 background-color: #222;
 border:none    
 }
+#loading-container{width:150px;height:150px;margin:0 auto;display:none;-webkit-opacity: 0.7;-moz-opacity: 0.7;opacity:0.7;position:relative}
+#loading{width:150px;height:150px;margin-top:150px;position:absolute;-webkit-opacity: 0.7;-moz-opacity: 0.7;opacity:.7;}
+#loader{display:none;position:relative;z-index:10000000000000000000;width:150px;height:150px;}
+#loading span, #loader span{position:relative;top:-10px;left:38px;font: 18px/18px 'juhlmedium', Arial, sans-serif!important;color:#666;text-transform:uppercase;}
 
 .btn:hover,button:hover{
 background-color: #222;  
