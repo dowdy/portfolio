@@ -5,7 +5,7 @@ var Core;
         function Slider() {
             // Durations
             this.durations = {
-                auto: 4800,
+                auto: 4000,
                 slide: 2400
             };
             // DOM
@@ -109,9 +109,10 @@ var Core;
 })(Core || (Core = {}));
 document.addEventListener('DOMContentLoaded', function () {
     var imgLoad0 = imagesLoaded( '.page-view', { background: true }, function() {
-      //console.log('page-view loaded');
+
     });
     imgLoad0.on( 'done', function( instance ) {
-      new Core.Slider();
+      new Core.Slider(); 
+
     });
 });

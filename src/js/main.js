@@ -11,17 +11,26 @@ $(window).scroll(function() {
 
 $(function(){
 
-$('nav > ul > li > a,.arrow-down a').click (function(e){
+ $('h1').fadeIn(800);
+  setTimeout(function(){ 
+ 	$('h2').fadeIn();
+ }, 1000);
+
+ setTimeout(function(){ 
+ 	$('.arrow-down').fadeIn(3000)
+ }, 5000);
+
+ $('nav > ul > li > a,.arrow-down a').click (function(e){
 	e.preventDefault();
 	var aboutHeight= $('.project').innerHeight();
  	var target = $(this).attr('href');
  	if($(window).width() > 768){	
  		var dest = $(target).offset().top;
- 		console.log(dest);
+ 		//console.log(dest);
  	}
  	else{
  		var dest = $(target).offset().top -20;
- 		console.log(dest);
+ 		//console.log(dest);
  	}
  	$('html:not(:animated),body:not(:animated)').animate({
 		scrollTop: dest },

@@ -254,6 +254,7 @@ font-family: 'Space Mono', monospace;
   background-repeat: no-repeat;
   background-size: cover;
 
+
 }
 
 .page-view h1, .page-view h2 {
@@ -268,8 +269,11 @@ font-family: 'Space Mono', monospace;
     display: table;
     text-align: center;
     z-index: 31;
-    padding: 1em
+    padding: 1em;
+    display:none;
+    width:100%
 }
+
 .page-view .project .text p {
   font-size: 16px;
   position: absolute;
@@ -511,7 +515,8 @@ position: absolute;
 z-index: 32;
 bottom: 60px;
 width: 100%;
-color:#fff
+color:#fff;
+display: none
 }
 .arrow-down a:hover{
 color:#f7484e
@@ -674,6 +679,7 @@ padding: 150px 0 300px 0;
 font-size: 11em;
 padding:0;
 top: 40%;
+display:none
 }
 
 }
@@ -681,12 +687,14 @@ top: 40%;
 @media only screen and (min-width: 992px) {
 .page-view h1, .page-view h2{
 font-size:10em;
+display:none
 }
 }
 
 @media only screen and (min-width: 1200px) {
 .page-view h1, .page-view h2{
 font-size: 11em;
+display:none
 }
 }
 
