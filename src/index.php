@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="google-site-verification" content="QuuvSTfSsyffTtGVh_CVzkQIt5GSF-IeSoJbU5iDJO0" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Teko:400,700|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400|Dancing+Script" rel="stylesheet">
 <link rel="stylesheet" href="css/style.min.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107708425-1"></script>
 <script>
